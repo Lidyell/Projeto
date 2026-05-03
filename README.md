@@ -36,7 +36,6 @@ src/
 ├── service/        # Regras de negócio
 ├── repository/     # Comunicação com banco
 ├── model/          # Entidades
-├── dto/            # Objetos de transferência
 └── config/         # Configurações
 ```
 
@@ -46,13 +45,13 @@ src/
 
 ### 1. Clone o repositório
 
-```id="4zq3dl"
+```
 git clone hhttps://github.com/Lidyell/API_CADASTRO.git
 ```
 
 ### 2. Acesse a pasta
 
-```id="k03x0n"
+```
 cd Projeto
 ```
 
@@ -60,13 +59,13 @@ cd Projeto
 
 Se estiver usando Maven:
 
-```id="f4o3n9"
+```
 ./mvnw spring-boot:run
 ```
 
 Ou:
 
-```id="g6zzdt"
+```
 mvn spring-boot:run
 ```
 
